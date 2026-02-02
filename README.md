@@ -8,3 +8,6 @@ A small game where the user can input a noun, verb, adjective and adverb which w
 
 ## How to run:
 Download files and run index.html in browser
+
+## Preview:
+https://mundus-school.github.io/w02-game-storyGenerator/
