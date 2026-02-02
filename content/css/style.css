@@ -1,0 +1,79 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #69380a;
+}
+
+#gameWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(187, 92, 28);
+  border-radius: 25px;
+  height: 98vh;
+  width: 98wv;
+}
+
+#mainWindow {
+  padding: 50px;
+  background-color: #ff9900;
+  box-shadow: 10px 10px #9c4f06;
+  border-radius: 25px;
+  height: 50%;
+  width: 70%;
+}
+
+#formWrapper {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-row: auto auto;
+  grid-column-gap: 75px;
+  grid-row-gap: 50px;
+  margin-top: 50px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+#description {
+  text-align: center;
+}
+
+#submitBtn {
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ff9900;
+  border: none;
+  background-color: #974915;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#submitBtn:hover {
+  background-color: #7a3c13;
+}
+
+#submitBtn:active {
+  background-color: #ecb693;
+}
+
+input {
+  width: 100%;
+  margin-top: 5px;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 2px solid rgb(214, 126, 25);
+  border-radius: 10px;
+}
+
+#outputWrapper {
+  padding: 50px 0px 50px 0px;
+}
+
+#storyOutput {
+  border-left: 5px solid #974915;
+  padding-left: 15px;
+}

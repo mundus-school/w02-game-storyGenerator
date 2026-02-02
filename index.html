@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Self-Study-Project</title>
+    <link rel="stylesheet" href="content/css/style.css" />
+  </head>
+  <body>
+    <div id="gameWrapper">
+      <div id="mainWindow">
+        <header>
+          <h1>Story Time!</h1>
+          <p id="description">
+            Fill in the blanks to generate a funny story. When you've filled in
+            all fields, press the button.
+          </p>
+        </header>
+        <main>
+          <form id="formWrapper" class="form">
+            <!-- input 1-->
+            <div class="formGroup">
+              <label for="noun">Noun (person, place, or thing):</label>
+              <input
+                type="text"
+                id="noun"
+                name="noun"
+                required=""
+                placeholder="e.g., wizard, castle, dragon"
+              />
+            </div>
+
+            <!-- input 2-->
+            <div class="form-group">
+              <label for="verb">Verb (action word):</label>
+              <input
+                type="text"
+                id="verb"
+                name="verb"
+                required=""
+                placeholder="e.g., run, jump, fly"
+              />
+            </div>
+
+            <!-- input 3-->
+            <div class="form-group">
+              <label for="adjective">Adjective (describing word):</label>
+              <input
+                type="text"
+                id="adjective"
+                name="adjective"
+                required=""
+                placeholder="e.g., magical, mysterious, brave"
+              />
+            </div>
+
+            <!-- input 4-->
+            <div class="form-group">
+              <label for="adverb"
+                >Adverb (describes how something is done):</label
+              >
+              <input
+                type="text"
+                id="adverb"
+                name="adverb"
+                required=""
+                placeholder="e.g., quickly, carefully, bravely"
+              />
+            </div>
+            <button type="button" id="submitBtn" class="button">
+              Generate story
+            </button>
+          </form>
+          <div id="outputWrapper" style="display: none">
+            <div id="storyOutput">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium, libero. Amet quo hic veniam nesciunt velit deserunt
+              corrupti similique! Perferendis ea eius provident quam quod
+              tempora illum eos inventore? Perspiciatis quis sit modi tenetur
+              ad, aut maxime ab possimus ratione nulla molestias adipisci
+              praesentium deserunt voluptatibus dicta nisi repellat eum.
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script src="content/js/script.js" type="text/javascript"></script>
+  </body>
+</html>
